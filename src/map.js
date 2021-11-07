@@ -1,9 +1,9 @@
 import mapboxgl from 'mapbox-gl';
 
-const acsessToken =
+const accessToken =
   'pk.eyJ1IjoidG9saWsxOTgzIiwiYSI6ImNrdGNzd3ZwazI5Mncydm45NTJ2em5wNnUifQ.UkoadCPMBj33lU_zM91r-g';
 function contactsMap() {
-  mapboxgl.accessToken = acsessToken;
+  mapboxgl.accessToken = accessToken;
 
   const map = new mapboxgl.Map({
     container: 'map',
